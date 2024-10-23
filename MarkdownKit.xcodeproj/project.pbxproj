@@ -3,19 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3D5A80C926177A1100EE65C6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3D5A80C826177A1100EE65C6 /* Alamofire */; };
-		3D5A80D626177A3800EE65C6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3D5A80D526177A3800EE65C6 /* Alamofire */; };
 		3D6C279C25E80DD8008ED858 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C279B25E80DD8008ED858 /* Typealias.swift */; };
-		3D6C279D25E80DD8008ED858 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6C279B25E80DD8008ED858 /* Typealias.swift */; };
-		3D6C27A225E80DE5008ED858 /* MarkdownStrikethrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB3627C23154D90005D48C8 /* MarkdownStrikethrough.swift */; };
 		3DBA812126317375009CEB6B /* MarkdownKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62C1BFF21EF7EED00308C8C /* MarkdownKit.framework */; };
 		3DBA812226317375009CEB6B /* MarkdownKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B62C1BFF21EF7EED00308C8C /* MarkdownKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3DBA81262631737A009CEB6B /* MarkdownKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64AF6142203402F0048439D /* MarkdownKit.framework */; };
-		3DBA81272631737A009CEB6B /* MarkdownKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B64AF6142203402F0048439D /* MarkdownKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3EB3627D23154D90005D48C8 /* MarkdownStrikethrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB3627C23154D90005D48C8 /* MarkdownStrikethrough.swift */; };
 		B62C1BEB21EF7D8D00308C8C /* String+HTMLDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62C1BE221EF7D8C00308C8C /* String+HTMLDecode.swift */; };
 		B62C1BEC21EF7D8D00308C8C /* MarkdownSubreddit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62C1BE321EF7D8C00308C8C /* MarkdownSubreddit.swift */; };
@@ -30,36 +25,7 @@
 		B64AF604220317980048439D /* MarkdownCode+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AF603220317980048439D /* MarkdownCode+UIKit.swift */; };
 		B64AF608220319470048439D /* MarkdownLink+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AF607220319470048439D /* MarkdownLink+UIKit.swift */; };
 		B64AF60B22031A670048439D /* MarkdownHeader+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AF60A22031A670048439D /* MarkdownHeader+UIKit.swift */; };
-		B64AF618220340300048439D /* MarkdownKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B64AF616220340300048439D /* MarkdownKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B64AF61C220340360048439D /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000321EF8A96008649E1 /* MarkdownParser.swift */; };
-		B64AF61D2203403A0048439D /* String+UTF16.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000521EF8A96008649E1 /* String+UTF16.swift */; };
-		B64AF61E220340520048439D /* MarkdownQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000F21EF8A96008649E1 /* MarkdownQuote.swift */; };
-		B64AF61F220340550048439D /* MarkdownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672001121EF8A96008649E1 /* MarkdownList.swift */; };
-		B64AF620220340590048439D /* MarkdownBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672001321EF8A96008649E1 /* MarkdownBold.swift */; };
-		B64AF6212203405C0048439D /* MarkdownHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000A21EF8A96008649E1 /* MarkdownHeader.swift */; };
-		B64AF623220340630048439D /* MarkdownLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000921EF8A96008649E1 /* MarkdownLink.swift */; };
-		B64AF624220340660048439D /* MarkdownAutomaticLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000821EF8A96008649E1 /* MarkdownAutomaticLink.swift */; };
-		B64AF625220340740048439D /* MarkdownItalic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672001421EF8A96008649E1 /* MarkdownItalic.swift */; };
-		B64AF626220340790048439D /* MarkdownCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672001221EF8A96008649E1 /* MarkdownCode.swift */; };
-		B64AF627220340870048439D /* MarkdownCodeEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000C21EF8A96008649E1 /* MarkdownCodeEscaping.swift */; };
-		B64AF6282203408F0048439D /* MarkdownUnescaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000E21EF8A96008649E1 /* MarkdownUnescaping.swift */; };
-		B64AF6292203409A0048439D /* MarkdownEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000D21EF8A96008649E1 /* MarkdownEscaping.swift */; };
-		B64AF62A220340A80048439D /* MarkdownCommonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672001621EF8A96008649E1 /* MarkdownCommonElement.swift */; };
-		B64AF62B220340AE0048439D /* MarkdownLinkElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672001721EF8A96008649E1 /* MarkdownLinkElement.swift */; };
-		B64AF62C220340BC0048439D /* MarkdownLevelElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672001821EF8A96008649E1 /* MarkdownLevelElement.swift */; };
-		B64AF62D220340BF0048439D /* MarkdownElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672001921EF8A96008649E1 /* MarkdownElement.swift */; };
-		B64AF633220341960048439D /* MarkdownStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672001A21EF8A96008649E1 /* MarkdownStyle.swift */; };
-		B64AF636220343880048439D /* MarkdownHeader+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AF635220343780048439D /* MarkdownHeader+AppKit.swift */; };
-		B64AF639220343E00048439D /* MarkdownLink+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AF637220343D30048439D /* MarkdownLink+AppKit.swift */; };
-		B64AF63B220344220048439D /* MarkdownCode+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AF63A220343FC0048439D /* MarkdownCode+AppKit.swift */; };
 		B64AF63D220345E40048439D /* MarkdownParser+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AF63C220345E40048439D /* MarkdownParser+UIKit.swift */; };
-		B64AF640220346330048439D /* MarkdownParser+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AF63F220345E80048439D /* MarkdownParser+AppKit.swift */; };
-		B64AF649220349900048439D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AF648220349900048439D /* AppDelegate.swift */; };
-		B64AF64B220349900048439D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AF64A220349900048439D /* ViewController.swift */; };
-		B64AF64D220349920048439D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64AF64C220349920048439D /* Assets.xcassets */; };
-		B64AF650220349920048439D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64AF64E220349920048439D /* Main.storyboard */; };
-		B64AF66522034C240048439D /* MarkdownFont+Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AF66322034C240048439D /* MarkdownFont+Traits.swift */; };
-		B64AF667220355120048439D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B695DA0D21F5E60300FC6FCD /* ViewModel.swift */; };
 		B672001B21EF8A96008649E1 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000321EF8A96008649E1 /* MarkdownParser.swift */; };
 		B672001C21EF8A96008649E1 /* String+UTF16.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000521EF8A96008649E1 /* String+UTF16.swift */; };
 		B672001D21EF8A96008649E1 /* UIFont+Traits.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672000621EF8A96008649E1 /* UIFont+Traits.swift */; };
@@ -90,13 +56,6 @@
 			remoteGlobalIDString = B62C1BFE21EF7EED00308C8C;
 			remoteInfo = "MarkdownKit iOS";
 		};
-		3DBA81282631737A009CEB6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B62C1BA521EF7C8000308C8C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B64AF6132203402F0048439D;
-			remoteInfo = "MarkdownKit macOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -107,17 +66,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				3DBA812226317375009CEB6B /* MarkdownKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DBA812A2631737A009CEB6B /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				3DBA81272631737A009CEB6B /* MarkdownKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,7 +93,6 @@
 		B64AF603220317980048439D /* MarkdownCode+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarkdownCode+UIKit.swift"; sourceTree = "<group>"; };
 		B64AF607220319470048439D /* MarkdownLink+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarkdownLink+UIKit.swift"; sourceTree = "<group>"; };
 		B64AF60A22031A670048439D /* MarkdownHeader+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarkdownHeader+UIKit.swift"; sourceTree = "<group>"; };
-		B64AF6142203402F0048439D /* MarkdownKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarkdownKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64AF616220340300048439D /* MarkdownKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkdownKit.h; sourceTree = "<group>"; };
 		B64AF617220340300048439D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B64AF635220343780048439D /* MarkdownHeader+AppKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarkdownHeader+AppKit.swift"; sourceTree = "<group>"; };
@@ -153,15 +100,7 @@
 		B64AF63A220343FC0048439D /* MarkdownCode+AppKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarkdownCode+AppKit.swift"; sourceTree = "<group>"; };
 		B64AF63C220345E40048439D /* MarkdownParser+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarkdownParser+UIKit.swift"; sourceTree = "<group>"; };
 		B64AF63F220345E80048439D /* MarkdownParser+AppKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarkdownParser+AppKit.swift"; sourceTree = "<group>"; };
-		B64AF646220349900048439D /* Example macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B64AF648220349900048439D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B64AF64A220349900048439D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B64AF64C220349920048439D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B64AF64F220349920048439D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B64AF651220349920048439D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B64AF652220349920048439D /* Example_Appkit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example_Appkit.entitlements; sourceTree = "<group>"; };
 		B64AF66322034C240048439D /* MarkdownFont+Traits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarkdownFont+Traits.swift"; sourceTree = "<group>"; };
-		B64AF668220357A70048439D /* Example-AppKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Example-AppKit.entitlements"; sourceTree = "<group>"; };
 		B672000321EF8A96008649E1 /* MarkdownParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownParser.swift; sourceTree = "<group>"; };
 		B672000521EF8A96008649E1 /* String+UTF16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+UTF16.swift"; sourceTree = "<group>"; };
 		B672000621EF8A96008649E1 /* UIFont+Traits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Traits.swift"; sourceTree = "<group>"; };
@@ -198,22 +137,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B64AF6112203402F0048439D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B64AF643220349900048439D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DBA81262631737A009CEB6B /* MarkdownKit.framework in Frameworks */,
-				3D5A80D626177A3800EE65C6 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +199,6 @@
 			children = (
 				B62C1BAD21EF7C8000308C8C /* Example iOS.app */,
 				B62C1BFF21EF7EED00308C8C /* MarkdownKit.framework */,
-				B64AF6142203402F0048439D /* MarkdownKit.framework */,
-				B64AF646220349900048439D /* Example macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -369,20 +290,6 @@
 				B672000F21EF8A96008649E1 /* MarkdownQuote.swift */,
 			);
 			path = Quote;
-			sourceTree = "<group>";
-		};
-		B64AF647220349900048439D /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				B64AF668220357A70048439D /* Example-AppKit.entitlements */,
-				B64AF648220349900048439D /* AppDelegate.swift */,
-				B64AF64A220349900048439D /* ViewController.swift */,
-				B64AF64C220349920048439D /* Assets.xcassets */,
-				B64AF64E220349920048439D /* Main.storyboard */,
-				B64AF651220349920048439D /* Info.plist */,
-				B64AF652220349920048439D /* Example_Appkit.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 		B64AF65622034A830048439D /* UIKit */ = {
@@ -505,7 +412,6 @@
 			isa = PBXGroup;
 			children = (
 				B695DA0D21F5E60300FC6FCD /* ViewModel.swift */,
-				B64AF647220349900048439D /* macOS */,
 				B62C1BAF21EF7C8000308C8C /* iOS */,
 			);
 			path = Examples;
@@ -606,14 +512,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B64AF60F2203402F0048439D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B64AF618220340300048439D /* MarkdownKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -657,54 +555,15 @@
 			productReference = B62C1BFF21EF7EED00308C8C /* MarkdownKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B64AF6132203402F0048439D /* MarkdownKit macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B64AF619220340300048439D /* Build configuration list for PBXNativeTarget "MarkdownKit macOS" */;
-			buildPhases = (
-				B64AF60F2203402F0048439D /* Headers */,
-				B64AF6102203402F0048439D /* Sources */,
-				B64AF6112203402F0048439D /* Frameworks */,
-				B64AF6122203402F0048439D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MarkdownKit macOS";
-			productName = "MarkdownKit-mac";
-			productReference = B64AF6142203402F0048439D /* MarkdownKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B64AF645220349900048439D /* Example macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B64AF653220349920048439D /* Build configuration list for PBXNativeTarget "Example macOS" */;
-			buildPhases = (
-				B64AF642220349900048439D /* Sources */,
-				B64AF643220349900048439D /* Frameworks */,
-				B64AF644220349900048439D /* Resources */,
-				3DBA812A2631737A009CEB6B /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3DBA81292631737A009CEB6B /* PBXTargetDependency */,
-			);
-			name = "Example macOS";
-			packageProductDependencies = (
-				3D5A80D526177A3800EE65C6 /* Alamofire */,
-			);
-			productName = "Example-Appkit";
-			productReference = B64AF646220349900048439D /* Example macOS.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B62C1BA521EF7C8000308C8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1600;
 				ORGANIZATIONNAME = "Ivan Bruel";
 				TargetAttributes = {
 					B62C1BAC21EF7C8000308C8C = {
@@ -714,17 +573,6 @@
 					B62C1BFE21EF7EED00308C8C = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
-					};
-					B64AF6132203402F0048439D = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					B64AF645220349900048439D = {
-						CreatedOnToolsVersion = 10.1;
-						SystemCapabilities = {
-							com.apple.Sandbox = {
-								enabled = 1;
-							};
-						};
 					};
 				};
 			};
@@ -745,9 +593,7 @@
 			projectRoot = "";
 			targets = (
 				B62C1BAC21EF7C8000308C8C /* Example iOS */,
-				B64AF645220349900048439D /* Example macOS */,
 				B62C1BFE21EF7EED00308C8C /* MarkdownKit iOS */,
-				B64AF6132203402F0048439D /* MarkdownKit macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -769,22 +615,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B64AF6122203402F0048439D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B64AF644220349900048439D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B64AF64D220349920048439D /* Assets.xcassets in Resources */,
-				B64AF650220349920048439D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,48 +665,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B64AF6102203402F0048439D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B64AF66522034C240048439D /* MarkdownFont+Traits.swift in Sources */,
-				B64AF62B220340AE0048439D /* MarkdownLinkElement.swift in Sources */,
-				B64AF625220340740048439D /* MarkdownItalic.swift in Sources */,
-				B64AF624220340660048439D /* MarkdownAutomaticLink.swift in Sources */,
-				B64AF639220343E00048439D /* MarkdownLink+AppKit.swift in Sources */,
-				B64AF61F220340550048439D /* MarkdownList.swift in Sources */,
-				B64AF6212203405C0048439D /* MarkdownHeader.swift in Sources */,
-				B64AF62A220340A80048439D /* MarkdownCommonElement.swift in Sources */,
-				B64AF620220340590048439D /* MarkdownBold.swift in Sources */,
-				B64AF6292203409A0048439D /* MarkdownEscaping.swift in Sources */,
-				B64AF640220346330048439D /* MarkdownParser+AppKit.swift in Sources */,
-				B64AF627220340870048439D /* MarkdownCodeEscaping.swift in Sources */,
-				B64AF633220341960048439D /* MarkdownStyle.swift in Sources */,
-				B64AF63B220344220048439D /* MarkdownCode+AppKit.swift in Sources */,
-				B64AF61C220340360048439D /* MarkdownParser.swift in Sources */,
-				B64AF62C220340BC0048439D /* MarkdownLevelElement.swift in Sources */,
-				B64AF6282203408F0048439D /* MarkdownUnescaping.swift in Sources */,
-				B64AF61E220340520048439D /* MarkdownQuote.swift in Sources */,
-				3D6C27A225E80DE5008ED858 /* MarkdownStrikethrough.swift in Sources */,
-				B64AF61D2203403A0048439D /* String+UTF16.swift in Sources */,
-				B64AF62D220340BF0048439D /* MarkdownElement.swift in Sources */,
-				B64AF623220340630048439D /* MarkdownLink.swift in Sources */,
-				B64AF636220343880048439D /* MarkdownHeader+AppKit.swift in Sources */,
-				3D6C279D25E80DD8008ED858 /* Typealias.swift in Sources */,
-				B64AF626220340790048439D /* MarkdownCode.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B64AF642220349900048439D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B64AF667220355120048439D /* ViewModel.swift in Sources */,
-				B64AF64B220349900048439D /* ViewController.swift in Sources */,
-				B64AF649220349900048439D /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -884,11 +672,6 @@
 			isa = PBXTargetDependency;
 			target = B62C1BFE21EF7EED00308C8C /* MarkdownKit iOS */;
 			targetProxy = 3DBA812326317375009CEB6B /* PBXContainerItemProxy */;
-		};
-		3DBA81292631737A009CEB6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B64AF6132203402F0048439D /* MarkdownKit macOS */;
-			targetProxy = 3DBA81282631737A009CEB6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -905,14 +688,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				B62C1BF721EF7DA400308C8C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B64AF64E220349920048439D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B64AF64F220349920048439D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -958,6 +733,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -972,7 +748,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1021,6 +797,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1029,7 +806,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -1052,6 +829,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.md.MarkdownKit.example.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1072,6 +850,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.md.MarkdownKit.example.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1090,15 +869,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = MarkdownKit/Resources/iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.7.1;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = com.md.MarkdownKit.iOS;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
@@ -1121,15 +903,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = MarkdownKit/Resources/iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.7.1;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = com.md.MarkdownKit.iOS;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
@@ -1137,110 +922,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B64AF61A220340300048439D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = MarkdownKit/Resources/macOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MARKETING_VERSION = 1.7.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.md.MarkdownKit.macOS;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B64AF61B220340300048439D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = MarkdownKit/Resources/macOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MARKETING_VERSION = 1.7.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.md.MarkdownKit.macOS;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B64AF654220349920048439D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Examples/macOS/Example-AppKit.entitlements";
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Examples/macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = com.md.MarkdownKit.example.macOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		B64AF655220349920048439D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Examples/macOS/Example-AppKit.entitlements";
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Examples/macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = com.md.MarkdownKit.example.macOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1274,24 +955,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B64AF619220340300048439D /* Build configuration list for PBXNativeTarget "MarkdownKit macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B64AF61A220340300048439D /* Debug */,
-				B64AF61B220340300048439D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B64AF653220349920048439D /* Build configuration list for PBXNativeTarget "Example macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B64AF654220349920048439D /* Debug */,
-				B64AF655220349920048439D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -1307,11 +970,6 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		3D5A80C826177A1100EE65C6 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3D5A80C726177A1100EE65C6 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		3D5A80D526177A3800EE65C6 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3D5A80C726177A1100EE65C6 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
